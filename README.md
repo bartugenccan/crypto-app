@@ -20,25 +20,25 @@ CryptoHunter is a web application where users can get information about cryptocu
 </ul>
 <h3>Homepage</h3>
 <div>
-    <img src="./images/image1.png" alt="image1" width="50%" height="20%">
+    <img src="./public/images/image1.PNG" alt="image1" width="50%" height="20%">
 </div>
 <h3>CryptoCurrencies</h3>
 <div>
-    <img src="./images/image2.png" alt="image2" width="50%" height="20%">
+    <img src="./public/images/image2.PNG" alt="image2" width="50%" height="20%">
 </div>
 <h3>CryptoDetail</h3>
 <div>
-    <img src="./images/image3.png" alt="image3" width="50%" height="20%">
+    <img src="./public/images/image3.PNG" alt="image3" width="50%" height="20%">
 </div>
 <h3>News</h3>
 <div>
-    <img src="./images/image4.png" alt="image4" width="50%" height="20%">
+    <img src="./public/images/image4.PNG" alt="image4" width="50%" height="20%">
 </div>
 <h1> Installation </h1>
 
 ### How to run the example?
 
-1. Clone this repo
-2. Open the downloaded folder with Visual Studio Code
-3. Run `npm install` on terminal
-4. Run `npm start` on terminal
+1. Clone this repo.
+2. Open the downloaded folder with Visual Studio Code.
+3. Run `npm install` on terminal.
+4. Run `npm start` on terminal.
