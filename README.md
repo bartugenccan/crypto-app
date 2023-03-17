@@ -18,6 +18,9 @@ CryptoHunter is a web application where users can get information about cryptocu
   <li>Redux Toolkit</li>
   <li>Router</li>
 </ul>
+<h2>
+  Screenshots :camera_flash:
+</h2>
 <h3>Homepage</h3>
 <div>
     <img src="./public/images/image1.PNG" alt="image1" width="50%" height="20%">
