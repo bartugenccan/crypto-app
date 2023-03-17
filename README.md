@@ -3,6 +3,7 @@
 </h2>
 <p><font size="3">
 CryptoHunter is a web application where users can get information about cryptocurrencies and read news about them.
+
 Here is the live version: https://cryptohunter-eta.vercel.app
 </p>
 <h2>
