@@ -10,6 +10,7 @@ import { useGetCryptosQuery } from "../services/cryptoApi";
 
 // Components
 import { Cryptocurrencies, News } from "../components";
+import Loader from "./Loader";
 
 const { Title } = Typography;
 
@@ -18,7 +19,7 @@ const Homepage = () => {
   const globalStats = data?.data?.stats;
 
   if (isFetching) {
-    return "Loading...";
+    return <Loader />;
   }
 
   return (

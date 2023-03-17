@@ -12,6 +12,9 @@ import { useState, useEffect } from "react";
 import { useGetCryptosQuery } from "../services/cryptoApi";
 import { useGetCryptoNewsQuery } from "../services/cryptoNewsApi";
 
+// Component
+import Loader from "./Loader";
+
 const demoImage =
   "https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News";
 
@@ -27,7 +30,7 @@ const News = ({ simplified }) => {
   });
 
   if (!cryptoNews?.value) {
-    return "Loading...";
+    return <Loader />;
   }
 
   return (

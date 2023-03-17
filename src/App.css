@@ -51,7 +51,7 @@ a:hover {
   width: 100%;
 }
 .logo {
-  margin: 0 0 0 15px;
+  margin: 15px 0 0 15px;
 }
 .logo a {
   color: white;
@@ -228,6 +228,8 @@ a:hover {
 }
 
 .coin-desc {
+  display: flex;
+  flex-direction: column;
   flex: 0.5;
 }
 
